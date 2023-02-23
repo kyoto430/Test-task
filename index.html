@@ -8,13 +8,15 @@
     <title>Лаборатория двигателей</title>
   </head>
   <body>
-    <div class="header">
-      <div class="container header__container">
-        <div class="logo">
-          <div class="logo-block">
-            <a href="#" class="logo__img">
-              <img src="./assets/img/logo.png" alt="Логотип" />
-            </a>
+    <div class="main">
+      <div class="header">
+        <div class="container header__container">
+          <div class="logo">
+            <div class="logo-block">
+              <a href="#" class="logo__img">
+                <img src="./assets/img/logo.png" alt="Логотип" />
+              </a>
+            </div>
           </div>
           <div class="item-header">
             <div class="text-sm">
@@ -37,6 +39,138 @@
             </div>
             <div class="header-map__info">
               <div class="header-map-title">Смотреть на карте</div>
+              <div class="dots"></div>
+            </div>
+            <div class="map-display"></div>
+          </div>
+          <div class="item-header header-social">
+            <div class="text-sm">
+              Задайте вопрос,<br />
+              мы сейчас онлайн
+            </div>
+            <div class="header-social__block">
+              <a href="#" class="social-link">
+                <img src="./assets/img/whats.svg" alt="whats" />
+              </a>
+              <a href="#" class="social-link">
+                <img src="./assets/img/telegram.svg" alt="telegram" />
+              </a>
+              <a href="#" class="social-link">
+                <img src="./assets/img/viber.svg" alt="viber" />
+              </a>
+            </div>
+          </div>
+          <div class="item-header phones">
+            <div class="phones__block-top">
+              <div class="circle"></div>
+              <div class="text-sm">Звоните Пн-Сб 10:00 - 21:00</div>
+            </div>
+            <div class="phones__block-bottom">
+              <div class="tel">+7 (925) 103 33 30</div>
+              <div class="tel__info">
+                <div class="tel-title">Заказать звонок</div>
+                <div class="item">
+                  <img src="./assets/img/phone-icon.svg" alt="icon-phone" />
+                </div>
+                <div class="dots"></div>
+              </div>
+            </div>
+          </div>
+          <div class="burger__block">
+            <div class="burger">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu__block">
+        <div class="close close-menu"></div>
+        <ul class="menu" id="menu">
+          <li><a href="#">главная</a></li>
+          <li><a href="#">услуги</a></li>
+          <li><a href="#">модели двигателей</a></li>
+          <li><a href="#">отзывы</a></li>
+          <li><a href="#">стоимость</a></li>
+          <li><a href="#">примеры работ</a></li>
+          <li><a href="#">полезные статьи</a></li>
+          <li><a href="#">о компании</a></li>
+          <li><a href="#">контакты</a></li>
+        </ul>
+      </div>
+      <div class="container-sm main__container">
+        <div class="main__content">
+          <h1 class="main-title">
+            Профессиональный ремонт <br />
+            двигателей HYUNDAI и KIA <br />
+            с гарантией 1 год за 4-7 дней
+          </h1>
+          <div class="main-subtitle">
+            <span>в специализированном автосервисе полного цикла</span>
+          </div>
+          <div class="main-buttons">
+            <a href="#" class="btn btn-primary">
+              <span class="btn-blick"></span>
+              <span class="btn-primary__text">
+                Начать расчет стоимости ремонта вашего двигателя
+              </span>
+              <span class="arrow-icon"></span>
+            </a>
+            <a href="#" class="btn btn-secondary">
+              <span class="phone-icon"></span>
+              <span class="btn-secondary__text">
+                Узнайте стоимость по WhatsApp
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="bullets__block">
+          <ul class="bullets__list">
+            <li>
+              <span class="check"></span>
+              <strong>Без предоплаты.</strong> <br />
+              Оплата после ремонта
+            </li>
+            <li>
+              <span class="check"></span>
+              <strong>Работаем официально</strong> c <br />
+              оформлением заказ-нарядов и чеков
+            </li>
+            <li>
+              <span class="check"></span>
+              <strong>Оригинальные запчасти</strong>
+            </li>
+            <li>
+              <span class="check"></span>
+              <strong>Лучшие цены на рынке</strong> благодаря прямым <br />
+              поставкам запчастей и собственному цеху <br />
+              механической обработки
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="popup" class="popup">
+        <div class="popup__body">
+          <div class="popup__content">
+            <a href="#" class="popup__close close-popup">X</a>
+            <div class="popup__title">Быстро оставить заявку</div>
+            <div class="popup__subtitle">
+              Введите номер — позвоним вам в течение 5-10 минут в рабочее время
+            </div>
+          </div>
+          <div class="popup__form">
+            <span>Введите ваш номер телефона</span>
+            <input type="tel" placeholder="+71234423" />
+            <a href="#" class="btn btn-primary">
+              <span class="btn-blick"></span>
+              <span class="btn-primary__text"> Перезвоните мне </span>
+              <span class="arrow-icon"></span>
+            </a>
+            <div class="check__block">
+              <input type="checkbox" />
+              <span
+                >Нажимая кнопку вы соглашаетесь с условиями
+                <a href="#">Политики конфиденциальности</a></span
+              >
             </div>
           </div>
         </div>
