@@ -9,20 +9,22 @@
   </head>
   <body>
     <div class="main">
-      <div class="header">
-        <div class="container header__container" id="nav-menu">
+      <div class="header" id="header">
+        <div class="container header__container">
           <div class="logo">
             <div class="logo-block">
               <a href="#" class="logo__img">
                 <img src="./assets/img/logo.png" alt="Логотип" />
               </a>
-              <div class="text-sm">
-                Ремонтируем двигатели <br />
-                Hyundai и Kia с 2012 года
+              <div class="nav-element">
+                <p class="text-sm">
+                  Ремонтируем двигатели <br />
+                  Hyundai и Kia с 2012 года
+                </p>
               </div>
             </div>
           </div>
-          <div class="item-header">
+          <div class="item-header header-adress">
             <div class="item">
               <img src="./assets/img/map.svg" alt="icon-map" />
             </div>
@@ -94,17 +96,20 @@
               </div>
             </div>
           </div>
-          <div class="burger__block" id="nav-toggle">
-            <div class="burger">
-              <span>MENU</span>
-            </div>
-          </div>
+          <button class="header__burger-btn" id="burger">
+            <span></span><span></span><span></span>
+          </button>
         </div>
         <div class="menu__block">
-          <div class="close close-menu" id="nav-close">CLOSE</div>
           <ul class="menu" id="menu">
             <li><a href="#">главная</a></li>
             <li><a href="#">услуги</a></li>
+            <div class="mob mob-logo">
+              <p class="text-sm">
+                Ремонтируем двигатели <br />
+                Hyundai и Kia с 2012 года
+              </p>
+            </div>
             <li><a href="#">модели двигателей</a></li>
             <li><a href="#">отзывы</a></li>
             <li><a href="#">стоимость</a></li>
@@ -112,6 +117,43 @@
             <li><a href="#">полезные статьи</a></li>
             <li><a href="#">о компании</a></li>
             <li><a href="#">контакты</a></li>
+            <div class="mob mob-adress">
+              <div class="item">
+                <img src="./assets/img/map.svg" alt="icon-map" />
+              </div>
+              <div class="text-sm">
+                Адрес автоцентра:<br />
+                <strong> Шоссейный проезд, с4 а/2</strong>
+              </div>
+            </div>
+            <div class="mob mob-calc">
+              <div class="item">
+                <img src="./assets/img/calculator.svg" alt="icon-calculator" />
+              </div>
+              <div class="header-calc__info">
+                <div class="header-calc-title">
+                  Рассчитать стоимость ремонта за 45 сек
+                </div>
+              </div>
+              <div class="calc-display"></div>
+            </div>
+            <div class="mob mob-social">
+              <div class="text-sm">
+                Задайте вопрос,<br />
+                мы сейчас онлайн
+              </div>
+              <div class="header-social__block">
+                <a href="#" class="social-link">
+                  <img src="./assets/img/whats.svg" alt="whats" />
+                </a>
+                <a href="#" class="social-link">
+                  <img src="./assets/img/telegram.svg" alt="telegram" />
+                </a>
+                <a href="#" class="social-link">
+                  <img src="./assets/img/viber.svg" alt="viber" />
+                </a>
+              </div>
+            </div>
           </ul>
         </div>
       </div>

@@ -41,36 +41,8 @@ submitButton.addEventListener('click', (e) => {
 })
 
 // Меню бургер
-// const navMenu = document.getElementById('nav-menu')
-// const navToggle = document.getElementById('nav-toggle')
-// const navClose = document.getElementById('nav-close')
-
-// if (navToggle) {
-//   navToggle.addEventListener('click', () => {
-//     navMenu.classList.add('show-menu')
-//   })
-// }
-
-// if (navClose) {
-//   navClose.addEventListener('click', () => {
-//     navMenu.classList.remove('show-menu')
-//   })
-// }
-
-// navMenu.addEventListener('click', ({ target }) => {
-//   if (
-//     target.classList.contains('item-header') ||
-//     target.classList.contains('menu__block')
-//   ) {
-//     navMenu.classList.remove('show-menu')
-//   }
-// })
-
-function toggleMenu() {
-  let menu = document.getElementById('nav-menu')
-  if (menu.style.display === 'block') {
-    menu.style.display = 'none'
-  } else {
-    menu.style.display === 'block'
-  }
-}
+document.addEventListener('DOMContentLoaded', function () {
+  document.getElementById('burger').addEventListener('click', function () {
+    document.getElementById('header').classList.toggle('open')
+  })
+})
