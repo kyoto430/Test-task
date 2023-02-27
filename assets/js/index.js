@@ -1,5 +1,10 @@
 console.log('init')
-
+// Меню бургер
+document.addEventListener('DOMContentLoaded', function () {
+  document.getElementById('burger').addEventListener('click', function () {
+    document.getElementById('header').classList.toggle('open')
+  })
+})
 // Модальное окно
 document
   .getElementById('open-popup-btn')
@@ -38,11 +43,4 @@ submitButton.addEventListener('click', (e) => {
   if (submitButton.disabled !== true && checkbox.checked === true) {
     alert('Успешно!')
   }
-})
-
-// Меню бургер
-document.addEventListener('DOMContentLoaded', function () {
-  document.getElementById('burger').addEventListener('click', function () {
-    document.getElementById('header').classList.toggle('open')
-  })
 })
